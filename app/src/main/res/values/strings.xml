@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ShoppingList</string>
+    <string name="action_add_contact">הוסף פריט</string>
+    <string name="action_add_Team">הוסף קבוצה</string>
+</resources>

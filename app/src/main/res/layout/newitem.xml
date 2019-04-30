@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="הכנס רשימת פריטים עם רווח או פסיק ביניהם ולחץ אישור"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:id="@+id/itemName"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <Button
+        android:id="@+id/okClick"
+        android:text="אישור"
+        android:layout_width="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="40dp" />
+
+</LinearLayout>

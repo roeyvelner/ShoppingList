@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sartainstudios.contacts.ContactsView">
+
+
+    <item
+        android:id="@+id/action_add_contact"
+        android:icon="@drawable/icons8plus50"
+        android:title="@string/action_add_contact"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_show_all"
+        android:orderInCategory="100"
+        android:title="כל הפריטים"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_show_noMark"
+        android:orderInCategory="100"
+        android:title="הסתר מסומנים"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_remove_Marked"
+        android:title="מחק מסומנים"
+        app:showAsAction="never" />
+
+</menu>

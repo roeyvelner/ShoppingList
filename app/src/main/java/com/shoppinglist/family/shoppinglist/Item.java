@@ -10,7 +10,7 @@ public class Item {
     public Item(){
         isChecked = false;
         name="";
-        id = 1;
+        id = 1;//
     }
     public Item(Item item){
         this.isChecked = item.isChecked;
